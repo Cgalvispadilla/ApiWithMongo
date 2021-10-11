@@ -33,8 +33,8 @@ public class EmpleadoMapper {
         List<EmpleadoDTO> list = new ArrayList(collection.size());
         Iterator listTracks = collection.iterator();
 
-        while(listTracks.hasNext()) {
-            Empleado empleado = (Empleado)listTracks.next();
+        while (listTracks.hasNext()) {
+            Empleado empleado = (Empleado) listTracks.next();
             list.add(fromCollection(empleado));
         }
 
